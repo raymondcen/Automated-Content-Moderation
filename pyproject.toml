@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Automated-Content-Moderation"
+version = "0.0.1"
+authors = [
+  { name="Raymond Cen", email="raymondcen07@gmail.com" }
+]
+description = "Automated content moderation package"
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+  "tensorflow",
+  "pandas",
+  "numpy",
+  "seaborn",
+  "matplotlib",
+  "pyyaml",
+  "flask",
+  "h5py"
+]
+
+[project.optional-dependencies]
+dev = []
+
+[tool.setuptools.packages.find]
+where = ["."]

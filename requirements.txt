@@ -1,0 +1,9 @@
+tensorflow
+pandas
+numpy
+seaborn
+matplotlib
+pyyaml
+flask
+h5py
+-e .
