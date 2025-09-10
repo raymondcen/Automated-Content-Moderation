@@ -1,0 +1,16 @@
+name: venv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.13.3
+  - pip
+  - pip:
+      - tensorflow
+      - pandas
+      - numpy
+      - seaborn
+      - matplotlib
+      - pyyaml
+      - flask
+      - h5py
