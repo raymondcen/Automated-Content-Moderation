@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 from transformers import pipeline
-from tqdm import tqdm  # pip install tqdm
+from tqdm import tqdm 
 
 # Paths
 img_dir = Path("c:/Users/raymo/Desktop/img_resized")
