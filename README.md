@@ -6,7 +6,8 @@ Social media platforms struggle to moderate harmful content at scale across text
 Multi-input classification system detecting hate speech, violence, misinformation across modalities
 ### Impact 
 Safer online communities with reduced human moderator trauma
-
+## Dataset 
+[Kaggle Dataset](https://www.kaggle.com/datasets/victorcallejasf/multimodal-hate-speech)
 ## First time setup
 ```
 conda env create -f environment.yml
