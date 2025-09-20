@@ -1,3 +1,12 @@
+'''
+This file/function is for separating NSFW images from the main MMHS150k image 
+dataset into another folder to attach a new tag (6) for NSFW images in future
+data transformation. 
+
+This uses a Hugging-Face model to process these images and separate them into 
+another file. This also uses CUDA to speed up the process.
+'''
+
 import os
 from pathlib import Path
 from transformers import pipeline
