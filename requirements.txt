@@ -6,4 +6,5 @@ matplotlib
 pyyaml
 flask
 h5py
+dotenv
 -e .
